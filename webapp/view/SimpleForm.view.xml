@@ -1,0 +1,17 @@
+<mvc:View controllerName="apple.simpleform.controller.SimpleForm"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m" xmlns:form="sap.ui.layout.form">
+    <Page id="page" title="Simple Form">
+        <content>
+            <form:SimpleForm id="form1" title = "Employee Details" >
+                <form:content>
+                    <Label id="idLEid" text="Employee ID:"></Label>
+                    <Input id="idIpEid"></Input>                     
+                </form:content>
+            </form:SimpleForm>
+
+    
+    
+        </content>
+    </Page>
+</mvc:View>
