@@ -4,7 +4,7 @@
     <Page id="page" title="Simple Form" titleAlignment="Center">
         <content>
             <form:SimpleForm id="form1" title = "Employee Details" layout="ResponsiveGridLayout"
-            labelSpanL="2" labelSpanM="2" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2"
+            labelSpanL="4" labelSpanM="4" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2"
             >
                 <form:content>
                     <core:Title id="idCore" text="Employee Details"></core:Title>
@@ -14,7 +14,7 @@
                         <Input id="idIpEName" ></Input>
                         <Label id="idLEDes" text="Employee Designation" class= "sapUiTinyMarginTop"></Label>
                         <Input id="idIpEDes" ></Input>
-                    <core:Title id="Other Details" text="Other Details"></core:Title>
+                    <core:Title id="ODetails" text="Other Details"></core:Title>
                         <Label id="idLAdd" text="Address" class="sapUiTinyMarginTop"></Label>
                         <Input id="idIpAdd"></Input>
                         <Label id="idLEmail" text="Email" class="sapUiTinyMarginTop"></Label>
