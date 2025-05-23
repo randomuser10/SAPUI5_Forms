@@ -1,12 +1,20 @@
 <mvc:View controllerName="apple.simpleform.controller.SimpleForm"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m" xmlns:form="sap.ui.layout.form">
-    <Page id="page" title="Simple Form">
+    <Page id="page" title="Simple Form" titleAlignment="Center">
         <content>
-            <form:SimpleForm id="form1" title = "Employee Details" >
+            <form:SimpleForm id="form1" title = "Employee Details" layout="ResponsiveGridLayout"
+            labelSpanL="2" labelSpanM="2" emptySpanL="4" emptySpanM="4"
+            >
                 <form:content>
-                    <Label id="idLEid" text="Employee ID:"></Label>
-                    <Input id="idIpEid"></Input>                     
+                    <Label id="idLEid" text="Employee ID" class= "sapUiTinyMarginTop"></Label>
+                    <Input id="idIpEid" ></Input>
+                    <Label id="idLEName" text="Employee Name" class= "sapUiTinyMarginTop"></Label>
+                    <Input id="idIpEName" ></Input>
+                    <Label id="idLEDes" text="Employee Designation" class= "sapUiTinyMarginTop"></Label>
+                    <Input id="idIpEDes" ></Input>
+
+
                 </form:content>
             </form:SimpleForm>
 
